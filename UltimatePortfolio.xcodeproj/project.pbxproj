@@ -11,6 +11,8 @@
 		547B8B172B11724B00DBCBA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B162B11724B00DBCBA6 /* ContentView.swift */; };
 		547B8B192B11724C00DBCBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547B8B182B11724C00DBCBA6 /* Assets.xcassets */; };
 		547B8B1C2B11724C00DBCBA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547B8B1B2B11724C00DBCBA6 /* Preview Assets.xcassets */; };
+		547B8B242B1174F700DBCBA6 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B222B1174F700DBCBA6 /* Main.xcdatamodeld */; };
+		547B8B262B1177A000DBCBA6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B252B1177A000DBCBA6 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		547B8B162B11724B00DBCBA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		547B8B182B11724C00DBCBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		547B8B1B2B11724C00DBCBA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		547B8B232B1174F700DBCBA6 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		547B8B252B1177A000DBCBA6 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		547B8B272B117EEC00DBCBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		547B8B132B11724B00DBCBA6 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				547B8B272B117EEC00DBCBA6 /* Info.plist */,
 				547B8B142B11724B00DBCBA6 /* UltimatePortfolioApp.swift */,
+				547B8B252B1177A000DBCBA6 /* DataController.swift */,
 				547B8B162B11724B00DBCBA6 /* ContentView.swift */,
+				547B8B222B1174F700DBCBA6 /* Main.xcdatamodeld */,
 				547B8B182B11724C00DBCBA6 /* Assets.xcassets */,
 				547B8B1A2B11724C00DBCBA6 /* Preview Content */,
 			);
@@ -137,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547B8B242B1174F700DBCBA6 /* Main.xcdatamodeld in Sources */,
+				547B8B262B1177A000DBCBA6 /* DataController.swift in Sources */,
 				547B8B172B11724B00DBCBA6 /* ContentView.swift in Sources */,
 				547B8B152B11724B00DBCBA6 /* UltimatePortfolioApp.swift in Sources */,
 			);
@@ -275,6 +285,7 @@
 				DEVELOPMENT_TEAM = Z7BF2494U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +315,7 @@
 				DEVELOPMENT_TEAM = Z7BF2494U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		547B8B222B1174F700DBCBA6 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				547B8B232B1174F700DBCBA6 /* Main.xcdatamodel */,
+			);
+			currentVersion = 547B8B232B1174F700DBCBA6 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 547B8B092B11724B00DBCBA6 /* Project object */;
 }

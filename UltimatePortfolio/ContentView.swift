@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  UltimatePortfolio
-//
-//  Created by Dmitriy Bronnikov on 25.11.2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
