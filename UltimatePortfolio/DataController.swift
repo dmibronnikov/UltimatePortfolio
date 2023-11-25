@@ -3,6 +3,8 @@ import CoreData
 class DataController: ObservableObject {
     let container: NSPersistentContainer
     
+    @Published var selectedFilter: Filter? = Filter.all
+    
     init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "Main")
         
