@@ -19,6 +19,8 @@
 		547B8B2F2B12B41500DBCBA6 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B2E2B12B41500DBCBA6 /* Issue-CoreDataHelpers.swift */; };
 		547B8B312B12B53C00DBCBA6 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B302B12B53C00DBCBA6 /* Tag-CoreDataHelpers.swift */; };
 		547B8B332B12BAFB00DBCBA6 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B322B12BAFB00DBCBA6 /* IssueRow.swift */; };
+		547B8B352B13F87B00DBCBA6 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B342B13F87B00DBCBA6 /* IssueView.swift */; };
+		547B8B372B13F88200DBCBA6 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B8B362B13F88200DBCBA6 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		547B8B2E2B12B41500DBCBA6 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		547B8B302B12B53C00DBCBA6 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		547B8B322B12BAFB00DBCBA6 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		547B8B342B13F87B00DBCBA6 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		547B8B362B13F88200DBCBA6 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				547B8B2E2B12B41500DBCBA6 /* Issue-CoreDataHelpers.swift */,
 				547B8B302B12B53C00DBCBA6 /* Tag-CoreDataHelpers.swift */,
 				547B8B322B12BAFB00DBCBA6 /* IssueRow.swift */,
+				547B8B342B13F87B00DBCBA6 /* IssueView.swift */,
+				547B8B362B13F88200DBCBA6 /* NoIssueView.swift */,
 				547B8B222B1174F700DBCBA6 /* Main.xcdatamodeld */,
 				547B8B182B11724C00DBCBA6 /* Assets.xcassets */,
 				547B8B1A2B11724C00DBCBA6 /* Preview Content */,
@@ -171,6 +177,8 @@
 				547B8B262B1177A000DBCBA6 /* DataController.swift in Sources */,
 				547B8B292B12AC9A00DBCBA6 /* SidebarView.swift in Sources */,
 				547B8B172B11724B00DBCBA6 /* ContentView.swift in Sources */,
+				547B8B352B13F87B00DBCBA6 /* IssueView.swift in Sources */,
+				547B8B372B13F88200DBCBA6 /* NoIssueView.swift in Sources */,
 				547B8B332B12BAFB00DBCBA6 /* IssueRow.swift in Sources */,
 				547B8B152B11724B00DBCBA6 /* UltimatePortfolioApp.swift in Sources */,
 			);
